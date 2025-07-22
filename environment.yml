@@ -1,0 +1,15 @@
+name: client-to-bim
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=12.5 # remove or change if using CPU
+  - pip
+  - pip:
+      - transformers
+      - tensorboard

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "client-to-bim"
+version = "0.1.0"
+description = "Using NLP for BIM data"
+authors = ["Syed Haseeb Shah"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "*"
+transformers = "*"
+tensorboard = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
