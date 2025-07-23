@@ -35,6 +35,7 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 ## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width=30> Hugging Face Model Card
 
 [![](https://img.shields.io/badge/%F0%9F%A4%97%20client%20to%20bim%20large-Model-blue)](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
+
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif">
 
 ## ⬇️ Updates
