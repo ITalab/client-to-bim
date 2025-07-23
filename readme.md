@@ -4,6 +4,21 @@
 
 > **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
 
+<!--
+SEO:
+client to bim, text to bim, natural language to bim, nlp bim integration, bim automation, bim requirement matching,
+semantic bim mapping, ifc language understanding, ai for construction design, ai-assisted bim modeling, transformer-based bim,
+language model for bim, huggingface bim application, ifc entity classification, automated design generation,
+requirement-driven bim modeling, ml in architecture, construction language parsing, project briefing to model generation,
+generative bim from text, aec nlp, nlp for architects, smart bim assistants, bim predesign automation,
+ai-driven aec workflows, bim semantic matching, bim client requirements, architecture requirement translation,
+nlp-based bim alignment, text2bim deep learning, intelligent design assistants, client intent to ifc mapping,
+language-guided bim synthesis, ai in aec industry, bim project scoping from text, ifc automation with transformers,
+multi-language support for bim, multilingual client requirements to bim, nlp-enhanced bim tooling, bim chatbot interface,
+language understanding in construction, prompt to bim, gpt bim integration, ifc data extraction from text,
+llm bim converter, ai for architects and engineers, bim integration pipeline, aec digital transformation
+-->
+
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -129,7 +144,7 @@ poetry install
 poetry shell
 ```
 
-## 📊 Dataset Overview (JSON Format)
+## 📊 Dataset Overview
 
 Each entry in this dataset is organized by **class name** followed by a list of **text samples**. The structure is designed for easy parsing and use in NLP classification tasks.
 
