@@ -1,6 +1,4 @@
-# NLP-BIM Framework for Semantic Text-to-Model Alignment
-
-###
+![](https://i.ibb.co/6RfxQdKz/textanim-vx-S9d.gif)
 
 > **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
 
