@@ -1,24 +1,4 @@
-<style>
-@keyframes fadeSlideIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animated-title {
-  font-size: 2em;
-  font-weight: bold;
-  color: #e2ff05ff;
-  animation: fadeSlideIn 1s ease-out;
-}
-</style>
-
-<div class="animated-title">NLP-BIM Framework for Semantic Text-to-Model Alignment</div>
+# NLP-BIM Framework for Semantic Text-to-Model Alignment
 
 ###
 
@@ -67,25 +47,6 @@ ModelEngine --> Output["📐 BIM Model"]
 - Metrics: Precision, Recall, BIM-conformity accuracy
 
 ## Results
-
-<style>
-@keyframes pulseBox {
-  0% { box-shadow: 0 0 0 0 rgba(0, 153, 255, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(0, 153, 255, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(0, 153, 255, 0); }
-}
-
-.result-highlight {
-  border: 2px solid #0099ff;
-  padding: 15px;
-  border-radius: 10px;
-  animation: pulseBox 2s infinite;
-}
-</style>
-
-<div class="result-highlight">
-  <strong>Result:</strong> Our model achieved a 96% F1 score across multilingual datasets.
-</div>
 
 <table>
 <tr>
