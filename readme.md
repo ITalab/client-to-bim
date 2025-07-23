@@ -1,4 +1,5 @@
 ![](https://i.ibb.co/6RfxQdKz/textanim-vx-S9d.gif)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
 > **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
 
@@ -26,14 +27,15 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" />
 
 <br><br>
-
-[![Tech Used](https://skillicons.dev/icons?i=py,docker,windows,linux,collab)](https://skillicons.dev)
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50">
+[![Tech Used](https://skillicons.dev/icons?i=docker,windows,linux,collab)](https://skillicons.dev)
 
 </div>
 
-## 📳 Hugging Face Model Card
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width=30> Hugging Face Model Card
 
 [![](https://img.shields.io/badge/%F0%9F%A4%97%20client%20to%20bim%20large-Model-blue)](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif">
 
 ## ⬇️ Updates
 
@@ -87,6 +89,7 @@ ModelEngine --> Output["📐 BIM Model"]
   </td>
 </tr>
 </table>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
 ## 📈 Applications
 
@@ -164,7 +167,7 @@ or manually download weights from hugging face
 
 [![](https://img.shields.io/badge/%F0%9F%A4%97%20client%20to%20bim%20large-Model-blue)](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
 
-## ⚒️Training
+## Training
 
 ### Pretrain
 
@@ -188,4 +191,5 @@ We welcome contributors! See the [CONTRIBUTING.md]() for guidelines.
 }
 ```
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 Made with ❤️ by ITalab
