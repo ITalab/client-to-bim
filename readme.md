@@ -3,6 +3,14 @@
 
 > **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ITalab.client-to-bim)
+![GitHub stars](https://img.shields.io/github/stars/ITalab/client-to-bim?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ITalab/client-to-bim?style=social)
+![GitHub issues](https://img.shields.io/github/issues/ITalab/client-to-bim)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ITalab/client-to-bim)
+![Last Commit](https://img.shields.io/github/last-commit/ITalab/client-to-bim)
+![License](https://img.shields.io/github/license/ITalab/client-to-bim)
+
 <!--
 SEO:
 client to bim, text to bim, natural language to bim, nlp bim integration, bim automation, bim requirement matching,
