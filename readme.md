@@ -52,7 +52,15 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 
 ## 🫥 Introduction
 
-BIM is central to AEC workflows, offering structured digital models of built assets. However, aligning unstructured text data such as specs, codes, and requirements with BIM elements remains a key challenge. NLP methods, especially transformer-based LMs, enable semantic mapping between text and BIM components. This work proposes a framework that integrates transformers with BIM to automate compliance, retrieval, and querying tasks across AEC domains.
+BIM is central to AEC workflows, offering structured digital models of built assets. However, aligning unstructured text data such as specs, codes, and requirements with BIM elements remains a key challenge. NLP methods, especially transformer-based LMs, enable semantic mapping between text and BIM components. This work proposes a framework that integrates transformers with BIM to automate compliance, retrieval, and querying
+tasks across AEC domains.
+
+### 🔊 Audio Summary
+
+<audio controls>
+  <source src="assets/summary.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 ## 🔗 BIM Architecture
 
