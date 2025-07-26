@@ -57,10 +57,7 @@ tasks across AEC domains.
 
 ### 🔊 Audio Summary
 
-<audio controls>
-  <source src="assets/summary.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+[▶️ Listen to audio summary](assets/summary.wav)
 
 ## 🔗 BIM Architecture
 
