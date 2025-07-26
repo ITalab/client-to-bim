@@ -57,7 +57,7 @@ tasks across AEC domains.
 
 ### 🔊 Audio Summary
 
-[▶️ Listen to audio summary](assets/summary.wav)
+[▶️ Listen to audio summary](https://raw.githubusercontent.com/QuantumNovice/client-to-bim/main/assets/summary.wav)
 
 ## 🔗 BIM Architecture
 
