@@ -8,5 +8,5 @@ title: "Client to BIM"
 version: 2.0.4
 identifiers:
   - type: doi
-    value:
+    value: https://doi.org/10.1016/j.autcon.2025.106601
 date-released:

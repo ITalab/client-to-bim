@@ -1,6 +1,10 @@
 ![](https://i.ibb.co/6RfxQdKz/textanim-vx-S9d.gif)
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+[**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.autcon.2025.106601-blue)](https://doi.org/10.1016/j.autcon.2025.106601)
+
 > **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ITalab.client-to-bim)
@@ -9,7 +13,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/ITalab/client-to-bim)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ITalab/client-to-bim)
 ![Last Commit](https://img.shields.io/github/last-commit/ITalab/client-to-bim)
-![License](https://img.shields.io/github/license/ITalab/client-to-bim)
 
 <!--
 SEO:
@@ -55,9 +58,9 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 BIM is central to AEC workflows, offering structured digital models of built assets. However, aligning unstructured text data such as specs, codes, and requirements with BIM elements remains a key challenge. NLP methods, especially transformer-based LMs, enable semantic mapping between text and BIM components. This work proposes a framework that integrates transformers with BIM to automate compliance, retrieval, and querying
 tasks across AEC domains.
 
-### 🔊 Audio Summary
+## 🔊 Audio Summary
 
-[▶️ Listen to audio summary](assets/summary.wav)
+[▶️ Listen to audio summary on Github](assets/summary.wav)
 
 ## 🔗 BIM Architecture
 
@@ -196,12 +199,18 @@ We welcome contributors! See the [CONTRIBUTING.md]() for guidelines.
 ## 🗨️ Citation
 
 ```bib
-@misc{ITalab_client-to-bim,
-  author       = {{ITalab}},
-  title        = {client-to-bim},
-  howpublished = {\url{https://github.com/ITalab/client-to-bim}},
-  year         = {2025},
-  note         = {GitHub repository, accessed July 23, 2025},
+@article{SHAH_2026106601,
+title = {Transformer-based framework for mapping client requirements to BIM},
+journal = {Automation in Construction},
+volume = {181},
+pages = {106601},
+year = {2026},
+issn = {0926-5805},
+doi = {https://doi.org/10.1016/j.autcon.2025.106601},
+url = {https://www.sciencedirect.com/science/article/pii/S0926580525006417},
+author = {Syed Haseeb Shah and Saddiq Ur Rehman and Inhan Kim and Kyung-Eun Hwang},
+keywords = {BIM, BERT, NLP, Recommendation, Office, Architecture, Design},
+abstract = {Translating heterogeneous, client-authored textual requirements into constructible, information-rich models constitutes a primary impediment to digital transformation in early design phases. Legacy workflows demand high frequency client architect iteration, manual decoding of narrative requirements, and bespoke parametric modeling, introducing latency and inconsistency. This paper introduces an end-to-end automation pipeline that couples advanced Natural Language Processing (NLP) with Building Information Modeling (BIM) to dynamically interpret design intent from user inputs and instantiate corresponding BIM assemblies. A semantic translation layer maps parsed entities to a curated BIM model repository and propagates constraints into the authoring environment. On a multi project evaluation set the framework achieved 92 % mapping accuracy between client inputs and instantiated BIM elements. Embedding this capability enhances requirement traceability, clarifies intent for stakeholders, and enables scalable data driven design analytics. This contribution operationalizes AI assisted construction automation by unifying NLP and BIM within a single extensible workflow.}
 }
 ```
 
