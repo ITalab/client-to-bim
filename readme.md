@@ -58,6 +58,19 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 BIM is central to AEC workflows, offering structured digital models of built assets. However, aligning unstructured text data such as specs, codes, and requirements with BIM elements remains a key challenge. NLP methods, especially transformer-based LMs, enable semantic mapping between text and BIM components. This work proposes a framework that integrates transformers with BIM to automate compliance, retrieval, and querying
 tasks across AEC domains.
 
+## 🫥 Effect of Pretraining on Model Performance
+
+<table>
+  <tr>
+    <td>
+      <img src="./assets/without-pretraining.png" width="350">
+    </td>
+    <td>
+      <img src="./assets/pretraining.png" width="350">
+    </td>
+  </tr>
+</table>
+
 ## 🔊 Audio Summary
 
 [▶️ Listen to audio summary on Github](assets/summary.wav)
@@ -77,6 +90,21 @@ ModelEngine --> Output["📐 BIM Model"]
 
 - Evaluation using a test suite of 30,000 annotated requirements
 - Metrics: Precision, Recall, BIM-conformity accuracy
+
+<table>
+  <tr>
+    <td>
+      <img src="./assets/val_acc_vs_epochs-kfold.png" width="350">
+    </td>
+    <td>
+      <img src="./assets/val_loss_vs_epochs-kfold.png" width="350">
+    </td>
+  </tr>
+</table>
+
+## Parallel Coordinates Plot
+
+<img src="./assets/parallel_coordinates_plot.png" width="350">
 
 ## Results
 
