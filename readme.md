@@ -1,6 +1,4 @@
-# Transformer-based framework for mapping client requirements to BIM
-
-![](https://i.ibb.co/6RfxQdKz/textanim-vx-S9d.gif)
+![](https://i.ibb.co/998MrnKx/2025-12-02-Transformer-based-framework-for-mapping-client-requirements-to-BIM.gif)
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
 [**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
