@@ -1,15 +1,11 @@
+# Transformer-based Framework for Mapping Client Requirements to BIM
+
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-# Transformer-based Framework for Mapping Client Requirements to BIM
-[**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
-
-[**Paper Website**](https://italab.github.io/client-to-bim/)
-
-[**Author Website**](https://quantumnovice.github.io/)
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.autcon.2025.106601-blue)](https://doi.org/10.1016/j.autcon.2025.106601)
 
-> **🚧 Project Type**: NLP × BIM | **📅 Timeline**: Spring 2025 | **🏗️ Domain**: Architecture, Engineering, and Construction
+> **🏢 Project Type**: NLP × BIM | **🏗️ Domain**: Architecture, Engineering, and Construction
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ITalab.client-to-bim)
 ![GitHub stars](https://img.shields.io/github/stars/ITalab/client-to-bim?style=social)
@@ -17,6 +13,13 @@
 ![GitHub issues](https://img.shields.io/github/issues/ITalab/client-to-bim)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ITalab/client-to-bim)
 ![Last Commit](https://img.shields.io/github/last-commit/ITalab/client-to-bim)
+
+[**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+
+[**Paper Website**](https://italab.github.io/client-to-bim/)
+
+[**Author Website**](https://quantumnovice.github.io/)
+
 
 <!--
 SEO:
@@ -55,6 +58,8 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 
 ## ⬇️ Updates
 
+- May 2026 ✨ Releasing full codebase and dataset
+- January 2026 ✨ Published 
 - July 2025 ✨ Pretraining, Training and Validation
 
 ## 🫥 Introduction
