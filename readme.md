@@ -1,7 +1,11 @@
-![](https://i.ibb.co/998MrnKx/2025-12-02-Transformer-based-framework-for-mapping-client-requirements-to-BIM.gif)
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
+# Transformer-based Framework for Mapping Client Requirements to BIM
 [**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+
+[**Paper Website**](https://italab.github.io/client-to-bim/)
+
+[**Author Website**](https://quantumnovice.github.io/)
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.autcon.2025.106601-blue)](https://doi.org/10.1016/j.autcon.2025.106601)
 
@@ -29,7 +33,7 @@ language understanding in construction, prompt to bim, gpt bim integration, ifc 
 llm bim converter, ai for architects and engineers, bim integration pipeline, aec digital transformation
 -->
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -75,7 +79,7 @@ tasks across AEC domains.
 
 [▶️ Listen to audio summary on Github](assets/summary.wav)
 
-## 🔗 BIM Architecture
+## BIM Architecture
 
 ```mermaid
 graph LR
@@ -102,7 +106,7 @@ ModelEngine --> Output["📐 BIM Model"]
   </tr>
 </table>
 
-## Parallel Coordinates Plot
+##  Hyperparameter Tuning
 
 <img src="./assets/parallel_coordinates_plot.png" width="350">
 
@@ -136,7 +140,7 @@ ModelEngine --> Output["📐 BIM Model"]
 </table>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-## 📈 Applications
+##  Applications
 
 - Office design automation
 - Early-stage design analysis
