@@ -2,7 +2,7 @@
 name = "client-to-bim"
 version = "0.1.0"
 description = "Using NLP for BIM data"
-authors = ["Syed Haseeb Shah"]
+authors = ["Syed Haseeb Shah", "Quantum Novice"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
