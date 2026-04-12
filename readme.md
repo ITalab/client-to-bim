@@ -20,7 +20,7 @@
 
 [**Author Website**](https://quantumnovice.github.io/)
 
-
+[**M3 Systems Demo of the Framework**](https://m3systems.co.kr/home)
 <!--
 SEO:
 client to bim, text to bim, natural language to bim, nlp bim integration, bim automation, bim requirement matching,
@@ -58,7 +58,7 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 
 ## ⬇️ Updates
 
-- May 2026 ✨ Releasing full codebase and dataset
+- May 2026 ✨ Releasing full codebase and sample dataset
 - January 2026 ✨ Published 
 - July 2025 ✨ Pretraining, Training and Validation
 
