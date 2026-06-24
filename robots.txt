@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://italab.github.io/client-to-bim/sitemap.xml
