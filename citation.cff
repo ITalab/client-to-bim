@@ -22,6 +22,8 @@ preferred-citation:
   start: 106601
   year: 2026
   doi: "10.1016/j.autcon.2025.106601"
+  url: "https://www.sciencedirect.com/science/article/pii/S0926580525006417"
+  notes: "Open-access copy: https://zenodo.org/records/17345735"
   authors:
     - family-names: Shah
       given-names: Syed Haseeb
