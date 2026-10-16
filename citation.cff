@@ -1,12 +1,34 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "Client to BIM"
+type: software
+repository-code: "https://github.com/ITalab/client-to-bim"
+url: "https://italab.github.io/client-to-bim/"
 authors:
   - family-names: Shah
-    given-names: Syed
-    orcid: https://orcid.org/my-orcid?orcid=0000-0002-6745-191X
-title: "Client to BIM"
-version: 2.0.4
-identifiers:
-  - type: doi
-    value: https://doi.org/10.1016/j.autcon.2025.106601
-date-released:
+    given-names: Syed Haseeb
+    orcid: "https://orcid.org/0000-0002-6745-191X"
+  - family-names: Rehman
+    given-names: Saddiq Ur
+  - family-names: Kim
+    given-names: Inhan
+  - family-names: Hwang
+    given-names: Kyung-Eun
+preferred-citation:
+  type: article
+  title: "Transformer-based framework for mapping client requirements to BIM"
+  journal: "Automation in Construction"
+  volume: 181
+  start: 106601
+  year: 2026
+  doi: "10.1016/j.autcon.2025.106601"
+  authors:
+    - family-names: Shah
+      given-names: Syed Haseeb
+    - family-names: Rehman
+      given-names: Saddiq Ur
+    - family-names: Kim
+      given-names: Inhan
+    - family-names: Hwang
+      given-names: Kyung-Eun
+keywords: [BIM, BERT, NLP, IFC, requirements engineering, AEC]

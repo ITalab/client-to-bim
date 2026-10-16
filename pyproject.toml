@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "client-to-bim"
 version = "0.1.0"
-description = "Using NLP for BIM data"
-authors = ["Syed Haseeb Shah", "Quantum Novice", "하세브"]
+description = "Fine-tuned BERT for mapping client requirements to BIM model codes"
+authors = ["Syed Haseeb Shah", "Saddiq Ur Rehman", "Inhan Kim", "Kyung-Eun Hwang"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
