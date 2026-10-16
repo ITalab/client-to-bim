@@ -8,6 +8,7 @@
 Code, dataset samples and model resources for *Transformer-based framework for mapping client requirements to BIM*, published in *Automation in Construction* (vol. 181, art. 106601, 2026). A fine-tuned BERT classifier maps free-text office-building requirements to BIM model codes, so that matching IFC models can be retrieved during early design.
 
 - [Paper (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+- [Open-access copy (Zenodo)](https://zenodo.org/records/17345735)
 - [Project page](https://italab.github.io/client-to-bim/)
 - [Author website](https://quantumnovice.github.io/)
 - [Model on Hugging Face](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
@@ -215,6 +216,7 @@ pages = {106601},
 year = {2026},
 issn = {0926-5805},
 doi = {10.1016/j.autcon.2025.106601},
+note = {Open-access copy: https://zenodo.org/records/17345735},
 url = {https://www.sciencedirect.com/science/article/pii/S0926580525006417},
 author = {Syed Haseeb Shah and Saddiq Ur Rehman and Inhan Kim and Kyung-Eun Hwang},
 keywords = {BIM, BERT, NLP, Recommendation, Office, Architecture, Design}
