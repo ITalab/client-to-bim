@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Client-to-BIM is a transformer-based NLP framework for mapping client-authored requirements to BIM elements, published in Automation in Construction.">
+    content="Fine-tuned BERT framework that maps free-text client requirements to BIM model codes for early office design. Open code, English, Korean and multilingual models. Automation in Construction, 2026.">
   <meta name="keywords"
-    content="client to BIM, text to BIM, NLP BIM, BERT BIM, transformer BIM, BIM automation, requirements to BIM, IFC mapping, AEC AI, architectural design automation">
+    content="client requirements to BIM, text to BIM, BERT BIM, NLP in construction, IFC model retrieval, requirement-driven design, early-stage office design, multilingual BERT, Korean BERT, Automation in Construction, Kyung Hee University">
   <meta name="author" content="Syed Haseeb Shah, Saddiq Ur Rehman, Inhan Kim, Kyung-Eun Hwang">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#0f766e">
@@ -16,19 +16,19 @@
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ITalab">
-  <meta property="og:title" content="Client-to-BIM: Transformer-based framework for mapping requirements to BIM">
+  <meta property="og:title" content="Mapping client requirements to BIM with fine-tuned BERT">
   <meta property="og:description"
-    content="A transformer-based NLP framework that maps client-authored design requirements to BIM elements for AI-assisted architectural modeling.">
+    content="Open code and models for classifying free-text office design requirements to BIM model codes. Published in Automation in Construction, vol. 181.">
   <meta property="og:url" content="https://italab.github.io/client-to-bim/">
   <meta property="og:image" content="https://italab.github.io/client-to-bim/assets/pretraining.png">
   <meta property="og:image:alt" content="Client-to-BIM pretraining performance figure">
   <meta property="article:published_time" content="2026-01-01">
-  <meta property="article:author" content="Syed Haseeb Shah">
+  <meta property="article:author" content="https://quantumnovice.github.io/">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Client-to-BIM: Transformer-based framework for mapping requirements to BIM">
+  <meta name="twitter:title" content="Mapping client requirements to BIM with fine-tuned BERT">
   <meta name="twitter:description"
-    content="Transformer-based NLP framework for mapping client requirements to BIM elements.">
+    content="Fine-tuned BERT maps free-text client requirements to BIM model codes (Automation in Construction, 2026).">
   <meta name="twitter:image" content="https://italab.github.io/client-to-bim/assets/pretraining.png">
 
   <meta name="citation_title" content="Transformer-based framework for mapping client requirements to BIM">
@@ -37,6 +37,11 @@
   <meta name="citation_author" content="Kim, Inhan">
   <meta name="citation_author" content="Hwang, Kyung-Eun">
   <meta name="citation_publication_date" content="2026">
+  <meta name="citation_issn" content="0926-5805">
+  <meta name="citation_publisher" content="Elsevier">
+  <meta name="citation_language" content="en">
+  <meta name="citation_author_institution" content="Department of Architecture, Kyung Hee University, South Korea">
+  <meta name="citation_fulltext_html_url" content="https://zenodo.org/records/17345735">
   <meta name="citation_journal_title" content="Automation in Construction">
   <meta name="citation_volume" content="181">
   <meta name="citation_firstpage" content="106601">
@@ -53,7 +58,11 @@
           "@id": "https://italab.github.io/client-to-bim/#paper",
           "headline": "Transformer-based framework for mapping client requirements to BIM",
           "name": "Transformer-based framework for mapping client requirements to BIM",
-          "description": "A transformer-based NLP framework for mapping client-authored textual requirements to BIM elements.",
+          "description": "A fine-tuned BERT framework that classifies free-text office-building requirements to BIM model codes for retrieval of matching IFC models in early design.",
+          "inLanguage": "en",
+          "dateModified": "2026-10-17",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "about": ["Building Information Modeling", "Natural language processing", "Requirements engineering"],
           "url": "https://italab.github.io/client-to-bim/",
           "image": "https://italab.github.io/client-to-bim/assets/pretraining.png",
           "datePublished": "2026",
@@ -68,6 +77,7 @@
           "sameAs": [
             "https://doi.org/10.1016/j.autcon.2025.106601",
             "https://www.sciencedirect.com/science/article/pii/S0926580525006417",
+            "https://zenodo.org/records/17345735",
             "https://www.openconstruction.org/models/details.html?id=client-to-bim"
           ],
           "keywords": [
@@ -79,14 +89,14 @@
             "AEC AI"
           ],
           "author": [
-            { "@type": "Person", "name": "Syed Haseeb Shah" },
+            { "@type": "Person", "@id": "https://quantumnovice.github.io/#person", "name": "Syed Haseeb Shah", "url": "https://quantumnovice.github.io/", "sameAs": ["https://quantumnovice.github.io/"], "affiliation": { "@type": "CollegeOrUniversity", "name": "Kyung Hee University" } },
             { "@type": "Person", "name": "Saddiq Ur Rehman" },
             { "@type": "Person", "name": "Inhan Kim" },
             { "@type": "Person", "name": "Kyung-Eun Hwang" }
           ],
           "publisher": {
             "@type": "Organization",
-            "name": "ITalab"
+            "name": "Elsevier"
           }
         },
         {
@@ -97,6 +107,7 @@
           "url": "https://italab.github.io/client-to-bim/",
           "codeRepository": "https://github.com/ITalab/client-to-bim",
           "programmingLanguage": "Python",
+          "author": { "@id": "https://quantumnovice.github.io/#person" },
           "applicationCategory": "Machine Learning",
           "sameAs": [
             "https://huggingface.co/ZappyKirby/client-to-bim/tree/main",
@@ -106,7 +117,7 @@
       ]
     }
   </script>
-  <title>Client-to-BIM | Transformer-based requirements to BIM mapping</title>
+  <title>Client-to-BIM: Mapping Client Requirements to BIM with BERT</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6915X0Y4MR"></script>
@@ -405,6 +416,14 @@
       background: #fff;
     }
 
+    caption {
+      caption-side: top;
+      text-align: left;
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding-bottom: 8px;
+    }
+
     figcaption {
       padding: 9px 12px 11px;
       border-top: 1px solid var(--line);
@@ -501,20 +520,25 @@
         gap: 7px;
       }
     }
+      footer a,
+    .authors a {
+      color: inherit;
+    }
   </style>
 </head>
 
 <body>
   <main class="page">
     <header class="paper-header">
-      <p class="tagline">NLP for BIM Automation</p>
+      <p class="tagline">Automation in Construction, 2026</p>
       <h1>Transformer-based framework for mapping client requirements to BIM</h1>
-      <p class="authors">Syed Haseeb Shah, Saddiq Ur Rehman, Inhan Kim, Kyung-Eun Hwang</p>
-      <p class="venue">Automation in Construction, Volume 181, Article 106601, 2026</p>
+      <p class="authors"><a href="https://quantumnovice.github.io/" rel="author">Syed Haseeb Shah</a>, Saddiq Ur Rehman, Inhan Kim, Kyung-Eun Hwang</p>
+      <p class="venue">Department of Architecture, Kyung Hee University, South Korea<br>Automation in Construction, vol. 181, art. 106601</p>
 
       <div class="links" aria-label="Project links">
         <a class="link-button" href="https://www.sciencedirect.com/science/article/pii/S0926580525006417"
           target="_blank" rel="noopener">Paper</a>
+        <a class="link-button" href="https://zenodo.org/records/17345735" target="_blank" rel="noopener">Zenodo</a>
         <a class="link-button" href="https://doi.org/10.1016/j.autcon.2025.106601" target="_blank"
           rel="noopener">DOI</a>
         <a class="link-button" href="https://github.com/ITalab/client-to-bim" target="_blank" rel="noopener">Code</a>
@@ -522,6 +546,7 @@
           rel="noopener">Model</a>
         <a class="link-button" href="https://www.openconstruction.org/models/details.html?id=client-to-bim"
           target="_blank" rel="noopener">OpenConstruction</a>
+        <a class="link-button" href="https://quantumnovice.github.io/" target="_blank" rel="noopener author">Author</a>
       </div>
     </header>
 
@@ -529,59 +554,79 @@
       <a href="#abstract">Abstract</a>
       <a href="#method">Method</a>
       <a href="#results">Results</a>
+      <a href="#limitations">Limitations</a>
       <a href="#resources">Resources</a>
       <a href="#citation">Citation</a>
     </nav>
 
     <figure class="teaser">
-      <img src="assets/pretraining.png" alt="Performance comparison after domain pretraining">
-      <figcaption class="teaser-caption">Domain pretraining improves the language model's downstream BIM requirement
-        mapping behavior.</figcaption>
+      <img src="assets/pretraining.png" alt="Validation performance of the BERT classifier after domain pretraining">
+      <figcaption class="teaser-caption">Fig. 1. Validation performance of the BERT classifier after domain pretraining.</figcaption>
     </figure>
 
     <div class="metrics" aria-label="Key metrics">
       <div class="metric">
-        <strong>30K</strong>
-        <span>annotated requirements</span>
+        <strong>30,000+</strong>
+        <span>text descriptions</span>
+      </div>
+      <div class="metric">
+        <strong>40</strong>
+        <span>BIM models (IFC)</span>
       </div>
       <div class="metric">
         <strong>92%</strong>
-        <span>mapping accuracy</span>
-      </div>
-      <div class="metric">
-        <strong>96%</strong>
-        <span>best F1 score</span>
+        <span>alignment accuracy</span>
       </div>
     </div>
 
     <section id="abstract">
       <h2>Abstract</h2>
-      <p class="abstract">Translating heterogeneous, client-authored textual requirements into constructible,
-        information-rich models constitutes a primary impediment to digital transformation in early design phases. This
-        work introduces an end-to-end automation pipeline that couples Natural Language Processing with Building
-        Information Modeling to interpret design intent from user inputs and instantiate corresponding BIM assemblies.
-        A semantic translation layer maps parsed entities to a curated BIM model repository and propagates constraints
-        into the authoring environment.</p>
-      <p class="abstract">On a multi-project evaluation set, the framework achieved 92% mapping accuracy between client
-        inputs and instantiated BIM elements. The approach improves requirement traceability, clarifies design intent
-        for stakeholders, and supports scalable data-driven design analytics.</p>
+      <p class="abstract">Client requirements arrive as unstructured text, whereas BIM authoring needs structured,
+        coded objects. Bridging the two by hand demands repeated client&ndash;architect iteration and bespoke parametric
+        modeling, which adds latency and inconsistency in early design. We present a pipeline that fine-tunes BERT to
+        map free-text requirements to BIM model codes, and a semantic layer that retrieves the matching model from a
+        curated IFC repository and writes it into the authoring environment.</p>
+      <p class="abstract">On a multi-project evaluation set, the framework reached 92% alignment accuracy between client
+        inputs and instantiated BIM elements. Domain pretraining raised the F1 score from 87% to 95%, and the proposed
+        architecture reached 96%. The approach improves requirement traceability and gives stakeholders a direct view of
+        how a requirement was interpreted.</p>
+      <p class="abstract"><strong>Keywords:</strong> BIM, BERT, NLP, recommendation, office, architecture, design</p>
+    </section>
+
+    <section id="contributions">
+      <h2>Contributions</h2>
+      <ul>
+        <li>An end-to-end text-to-BIM pipeline that goes from a client statement to a retrieved IFC model without manual re-entry.</li>
+        <li>A multimodal corpus of 40 office-building BIM models with rendered views, metadata and more than 30,000 expert-written and augmented descriptions.</li>
+        <li>English, Korean and multilingual BERT classifiers, with an ablation of domain pretraining.</li>
+        <li>Open code, sample data and weights for replication.</li>
+      </ul>
     </section>
 
     <section id="method">
-      <h2>Method Overview</h2>
-      <p>The framework follows a compact text-to-BIM pipeline from client language to BIM element generation.</p>
+      <h2>Method</h2>
+      <p>The framework has four layers: data preparation, transformer training, inference and mapping, and a user
+        interface. Each BIM model is exported to IFC and carries a three-letter identifier extended with mirroring and
+        rotation flags, so layout variants remain traceable from text through imagery to parameters.</p>
       <div class="pipeline" aria-label="Client-to-BIM pipeline">
-        <div class="step">Client requirements</div>
-        <div class="step">Entity recognition</div>
-        <div class="step">IFC/BIM mapping</div>
-        <div class="step">Model generation</div>
-        <div class="step">BIM output</div>
+        <div class="step">Client requirement (text)</div>
+        <div class="step">Fine-tuned BERT classifier</div>
+        <div class="step">BIM model code</div>
+        <div class="step">IFC model retrieval</div>
+        <div class="step">Authoring environment</div>
       </div>
+      <h3>Data and training</h3>
+      <p>Descriptions combine expert annotation, image-to-text generation and targeted augmentation to widen lexical
+        variety; Korean translations form a bilingual set. Classes are balanced by random undersampling to the size of
+        the smallest class, which removes the need for class weights. A fully connected classification head is trained
+        end to end with the BERT encoder, and hyperparameters are tuned with k-fold validation. Performance is reported
+        as accuracy, precision, recall and F1 score.</p>
     </section>
 
     <section id="results">
       <h2>Results</h2>
       <table>
+        <caption>Table 1. F1 score by model configuration and pretraining language.</caption>
         <thead>
           <tr>
             <th>Setting</th>
@@ -591,50 +636,71 @@
         </thead>
         <tbody>
           <tr>
-            <td>Architecture comparison</td>
+            <td>Architecture</td>
             <td>BERT baseline</td>
             <td>87%</td>
           </tr>
           <tr>
-            <td>Architecture comparison</td>
-            <td>BERT pretrained + baseline</td>
+            <td>Architecture</td>
+            <td>Pretrained BERT + baseline head</td>
             <td>95%</td>
           </tr>
           <tr>
-            <td>Architecture comparison</td>
-            <td>BERT pretrained + proposed method</td>
+            <td>Architecture</td>
+            <td>Pretrained BERT + proposed head</td>
             <td>96%</td>
           </tr>
           <tr>
-            <td>Language-specific pretraining</td>
-            <td>BERT English / Korean / multilingual</td>
-            <td>91% / 89% / 90%</td>
+            <td>Language</td>
+            <td>BERT English</td>
+            <td>91%</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>BERT Korean</td>
+            <td>89%</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>BERT multilingual</td>
+            <td>90%</td>
           </tr>
         </tbody>
       </table>
+      <p>Domain pretraining accounts for most of the gain over the vanilla baseline (+8 points F1). The English model
+        scores highest among the language variants and the multilingual model trails it slightly, consistent with
+        spreading capacity over several languages.</p>
 
       <div class="figure-grid">
         <figure>
-          <img src="assets/without-pretraining.png" alt="Performance without pretraining">
-          <figcaption>Without domain pretraining.</figcaption>
+          <img src="assets/without-pretraining.png" loading="lazy" alt="Training curves without domain pretraining">
+          <figcaption>Fig. 2a. Without domain pretraining.</figcaption>
         </figure>
         <figure>
-          <img src="assets/pretraining.png" alt="Performance with pretraining">
-          <figcaption>With domain pretraining.</figcaption>
+          <img src="assets/pretraining.png" loading="lazy" alt="Training curves with domain pretraining">
+          <figcaption>Fig. 2b. With domain pretraining.</figcaption>
         </figure>
         <figure>
-          <img src="assets/val_acc_vs_epochs-kfold.png" alt="Validation accuracy across epochs">
-          <figcaption>Validation accuracy over epochs.</figcaption>
+          <img src="assets/val_acc_vs_epochs-kfold.png" loading="lazy" alt="Validation accuracy per epoch across k folds">
+          <figcaption>Fig. 3a. Validation accuracy per epoch (k-fold).</figcaption>
         </figure>
         <figure>
-          <img src="assets/val_loss_vs_epochs-kfold.png" alt="Validation loss across epochs">
-          <figcaption>Validation loss over epochs.</figcaption>
+          <img src="assets/val_loss_vs_epochs-kfold.png" loading="lazy" alt="Validation loss per epoch across k folds">
+          <figcaption>Fig. 3b. Validation loss per epoch (k-fold).</figcaption>
         </figure>
         <figure class="wide">
-          <img src="assets/parallel_coordinates_plot.png" alt="Hyperparameter tuning parallel coordinates plot">
-          <figcaption>Hyperparameter tuning results.</figcaption>
+          <img src="assets/parallel_coordinates_plot.png" loading="lazy" alt="Parallel coordinates plot of hyperparameter search results">
+          <figcaption>Fig. 4. Hyperparameter search (parallel coordinates).</figcaption>
         </figure>
       </div>
+    </section>
+
+    <section id="limitations">
+      <h2>Limitations</h2>
+      <p>The corpus is small and researcher-curated, so transfer to heterogeneous project data is untested. Robustness
+        for non-English input is weaker, and task-scoped training prevents direct comparison with broader NLP and
+        vision-language BIM baselines. Future work covers larger and more varied datasets, class-imbalance sensitivity,
+        broader IFC schema coverage, and model compression for resource-constrained deployment.</p>
     </section>
 
     <section id="resources">
@@ -642,31 +708,39 @@
       <ul class="resource-list">
         <li>
           <a href="https://www.sciencedirect.com/science/article/pii/S0926580525006417" target="_blank"
-            rel="noopener">ScienceDirect paper</a>
-          <span>Published article page.</span>
+            rel="noopener">Article (ScienceDirect)</a>
+          <span>Published version of record.</span>
         </li>
         <li>
-          <a href="https://www.openconstruction.org/models/details.html?id=client-to-bim" target="_blank"
-            rel="noopener">OpenConstruction model page</a>
-          <span>Model reference page in OpenConstruction.</span>
+          <a href="https://zenodo.org/records/17345735" target="_blank" rel="noopener">Open-access copy (Zenodo)</a>
+          <span>Archived copy of the article, CC BY 4.0.</span>
         </li>
         <li>
           <a href="https://github.com/ITalab/client-to-bim" target="_blank" rel="noopener">GitHub repository</a>
-          <span>Code, setup files, and documentation.</span>
+          <span>Training code, setup files and sample data.</span>
         </li>
         <li>
           <a href="https://huggingface.co/ZappyKirby/client-to-bim/tree/main" target="_blank" rel="noopener">Hugging
             Face model</a>
-          <span>Model weights and related files.</span>
+          <span>Pretrained and fine-tuned checkpoints.</span>
+        </li>
+        <li>
+          <a href="https://www.openconstruction.org/models/details.html?id=client-to-bim" target="_blank"
+            rel="noopener">OpenConstruction entry</a>
+          <span>Model reference page.</span>
+        </li>
+        <li>
+          <a href="https://quantumnovice.github.io/" target="_blank" rel="noopener author">Author portfolio</a>
+          <span>Syed Haseeb Shah: publications and related projects.</span>
         </li>
       </ul>
 
       <h3>Audio summary</h3>
-      <audio controls src="assets/summary.wav">
+      <audio controls preload="none" src="assets/summary.wav">
         Your browser does not support the audio element.
       </audio>
 
-      <h3>Download model</h3>
+      <h3>Download the model</h3>
       <pre><code>from huggingface_hub import hf_hub_download
 
 file_path = hf_hub_download(
@@ -677,6 +751,12 @@ file_path = hf_hub_download(
 
     <section id="citation">
       <h2>Citation</h2>
+      <p>If you use this work, please cite the article. An archived open-access copy is available on
+        <a href="https://zenodo.org/records/17345735" target="_blank" rel="noopener">Zenodo</a>.</p>
+      <p>Shah, S. H., Rehman, S. U., Kim, I., &amp; Hwang, K.-E. (2026). Transformer-based framework for mapping client
+        requirements to BIM. <em>Automation in Construction</em>, 181, 106601.
+        <a href="https://doi.org/10.1016/j.autcon.2025.106601" target="_blank"
+          rel="noopener">https://doi.org/10.1016/j.autcon.2025.106601</a></p>
       <pre><code>@article{SHAH2026106601,
   title    = {Transformer-based framework for mapping client requirements to BIM},
   journal  = {Automation in Construction},
@@ -684,15 +764,17 @@ file_path = hf_hub_download(
   pages    = {106601},
   year     = {2026},
   issn     = {0926-5805},
-  doi      = {https://doi.org/10.1016/j.autcon.2025.106601},
+  doi      = {10.1016/j.autcon.2025.106601},
   url      = {https://www.sciencedirect.com/science/article/pii/S0926580525006417},
+  note     = {Open-access copy: https://zenodo.org/records/17345735},
   author   = {Syed Haseeb Shah and Saddiq Ur Rehman and Inhan Kim and Kyung-Eun Hwang},
   keywords = {BIM, BERT, NLP, Recommendation, Office, Architecture, Design}
 }</code></pre>
     </section>
 
     <footer>
-      Client-to-BIM | ITalab
+      Kyung Hee University &middot; <a href="https://quantumnovice.github.io/" rel="author">Syed Haseeb Shah</a> &middot;
+      <a href="https://github.com/ITalab/client-to-bim">ITalab</a>
     </footer>
   </main>
 </body>
