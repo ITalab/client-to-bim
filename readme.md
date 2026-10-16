@@ -1,40 +1,17 @@
 # Transformer-based Framework for Mapping Client Requirements to BIM
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
-
-
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.autcon.2025.106601-blue)](https://doi.org/10.1016/j.autcon.2025.106601)
-
-> **🏢 Project Type**: NLP × BIM | **🏗️ Domain**: Architecture, Engineering, and Construction
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ITalab.client-to-bim)
 ![GitHub stars](https://img.shields.io/github/stars/ITalab/client-to-bim?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/ITalab/client-to-bim?style=social)
-![GitHub issues](https://img.shields.io/github/issues/ITalab/client-to-bim)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/ITalab/client-to-bim)
 ![Last Commit](https://img.shields.io/github/last-commit/ITalab/client-to-bim)
 
-[**Read the Paper on ScienceDirect**](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+Code, dataset samples and model resources for *Transformer-based framework for mapping client requirements to BIM*, published in *Automation in Construction* (vol. 181, art. 106601, 2026). A fine-tuned BERT classifier maps free-text office-building requirements to BIM model codes, so that matching IFC models can be retrieved during early design.
 
-[**Paper Website**](https://italab.github.io/client-to-bim/)
-
-[**Author Website**](https://quantumnovice.github.io/)
-
-[**M3 Systems Demo of the Framework**](https://m3systems.co.kr/home)
-<!--
-SEO:
-client to bim, text to bim, natural language to bim, nlp bim integration, bim automation, bim requirement matching,
-semantic bim mapping, ifc language understanding, ai for construction design, ai-assisted bim modeling, transformer-based bim,
-language model for bim, huggingface bim application, ifc entity classification, automated design generation,
-requirement-driven bim modeling, ml in architecture, construction language parsing, project briefing to model generation,
-generative bim from text, aec nlp, nlp for architects, smart bim assistants, bim predesign automation,
-ai-driven aec workflows, bim semantic matching, bim client requirements, architecture requirement translation,
-nlp-based bim alignment, text2bim deep learning, intelligent design assistants, client intent to ifc mapping,
-language-guided bim synthesis, ai in aec industry, bim project scoping from text, ifc automation with transformers,
-multi-language support for bim, multilingual client requirements to bim, nlp-enhanced bim tooling, bim chatbot interface,
-language understanding in construction, prompt to bim, gpt bim integration, ifc data extraction from text,
-llm bim converter, ai for architects and engineers, bim integration pipeline, aec digital transformation
--->
+- [Paper (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0926580525006417)
+- [Project page](https://italab.github.io/client-to-bim/)
+- [Author website](https://quantumnovice.github.io/)
+- [Model on Hugging Face](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
+- [M3 Systems demo](https://m3systems.co.kr/home)
 
 ## Tech Stack
 
@@ -44,30 +21,25 @@ llm bim converter, ai for architects and engineers, bim integration pipeline, ae
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" />
 
-<br><br>
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50">
 [![Tech Used](https://skillicons.dev/icons?i=docker,windows,linux,collab)](https://skillicons.dev)
 
 </div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width=30> Hugging Face Model Card
+## Hugging Face Model
 
 [![](https://img.shields.io/badge/%F0%9F%A4%97%20client%20to%20bim%20large-Model-blue)](https://huggingface.co/ZappyKirby/client-to-bim/tree/main)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif">
+## Updates
 
-## ⬇️ Updates
+- May 2026: Releasing full codebase and sample dataset
+- January 2026: Paper published
+- July 2025: Pretraining, Training and Validation
 
-- May 2026 ✨ Releasing full codebase and sample dataset
-- January 2026 ✨ Published 
-- July 2025 ✨ Pretraining, Training and Validation
+## Introduction
 
-## 🫥 Introduction
+Client briefs reach architects as emails, meeting notes and word-processed documents, not as IFC classes or Revit family names. Interpreting them by hand slows early design and introduces inconsistency. This repository accompanies a framework that fine-tunes BERT on paired text descriptions and BIM model codes, so that a natural-language requirement is classified to the matching parametric office-building model. English, Korean and multilingual variants are provided.
 
-BIM is central to AEC workflows, offering structured digital models of built assets. However, aligning unstructured text data such as specs, codes, and requirements with BIM elements remains a key challenge. NLP methods, especially transformer-based LMs, enable semantic mapping between text and BIM components. This work proposes a framework that integrates transformers with BIM to automate compliance, retrieval, and querying
-tasks across AEC domains.
-
-## 🫥 Effect of Pretraining on Model Performance
+## Effect of Pretraining on Model Performance
 
 <table>
   <tr>
@@ -80,25 +52,25 @@ tasks across AEC domains.
   </tr>
 </table>
 
-## 🔊 Audio Summary
+## Audio Summary
 
-[▶️ Listen to audio summary on Github](assets/summary.wav)
+[Listen to audio summary on Github](assets/summary.wav)
 
-## BIM Architecture
+## Pipeline
 
 ```mermaid
 graph LR
-ClientInput["🗣️ Client Requirements"] --> NLPModule
-NLPModule --> EntityExtraction["📦 Entity Recognition"]
-EntityExtraction --> BIMMapper["🔧 IFC/BIM Mapper"]
-BIMMapper --> ModelEngine["🏗️ Model Generator"]
-ModelEngine --> Output["📐 BIM Model"]
+A[Client requirements] --> B[Fine-tuned BERT]
+B --> C[BIM model code]
+C --> D[IFC model repository]
+D --> E[BIM model retrieved in authoring tool]
 ```
 
-## 🧪 Experiments
+## Experiments
 
-- Evaluation using a test suite of 30,000 annotated requirements
-- Metrics: Precision, Recall, BIM-conformity accuracy
+- Corpus: 40 office-building BIM models with more than 30,000 textual descriptions (expert-written and augmented)
+- Classes balanced by random undersampling; k-fold validation
+- Metrics: accuracy, precision, recall, F1-score
 
 <table>
   <tr>
@@ -111,7 +83,7 @@ ModelEngine --> Output["📐 BIM Model"]
   </tr>
 </table>
 
-##  Hyperparameter Tuning
+## Hyperparameter Tuning
 
 <img src="./assets/parallel_coordinates_plot.png" width="350">
 
@@ -138,30 +110,29 @@ ModelEngine --> Output["📐 BIM Model"]
 | --------------- | --------- |
 | BERT English    | 91%       |
 | BERT Korean     | 89%       |
-| BERT Multingual | 90%       |
+| BERT Multilingual | 90%       |
 
   </td>
 </tr>
 </table>
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
-
-##  Applications
+## Applications
 
 - Office design automation
 - Early-stage design analysis
 - Requirements compliance validation
 
-## ⚙️ Setup
+## Setup
 
-### Pre-requisites
+### Prerequisites
 
-Installing CUDA toolkit using the instructions for your platform.
+Install the CUDA toolkit following the instructions for your platform.
 We recommend using `conda` to install `cudatoolkit`.
+
+
 
 [![Conda Version](https://img.shields.io/conda/v/conda-forge/cudatoolkit)](https://anaconda.org/conda-forge/cudatoolkit)
 
-Install the corresponding pytorch version
-from the link below. We recommend installing CUDA12.6 with the latest pytorch.
+Install the matching PyTorch build from the link below (CUDA 12.6 with the latest PyTorch is recommended).
 
 [![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 
@@ -199,11 +170,11 @@ poetry install
 poetry shell
 ```
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 Each entry in this dataset is organized by **class name** followed by a list of **text samples**. The structure is designed for easy parsing and use in NLP classification tasks.
 
-### 🧾 Description
+### Description
 
 - **Keys**: Represent class labels (e.g., `OCR`, `OUU`, `OBC`).
 - **Values**: Lists of string texts associated with that class.
@@ -229,27 +200,23 @@ or manually download weights from hugging face
 python mlm-pretrain.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributors! See the [CONTRIBUTING.md]() for guidelines.
+Contributions are welcome. See [contributing.md](contributing.md).
 
-## 🗨️ Citation
+## Citation
 
 ```bib
-@article{SHAH_2026106601,
+@article{SHAH2026106601,
 title = {Transformer-based framework for mapping client requirements to BIM},
 journal = {Automation in Construction},
 volume = {181},
 pages = {106601},
 year = {2026},
 issn = {0926-5805},
-doi = {https://doi.org/10.1016/j.autcon.2025.106601},
+doi = {10.1016/j.autcon.2025.106601},
 url = {https://www.sciencedirect.com/science/article/pii/S0926580525006417},
 author = {Syed Haseeb Shah and Saddiq Ur Rehman and Inhan Kim and Kyung-Eun Hwang},
-keywords = {BIM, BERT, NLP, Recommendation, Office, Architecture, Design},
-abstract = {Translating heterogeneous, client-authored textual requirements into constructible, information-rich models constitutes a primary impediment to digital transformation in early design phases. Legacy workflows demand high frequency client architect iteration, manual decoding of narrative requirements, and bespoke parametric modeling, introducing latency and inconsistency. This paper introduces an end-to-end automation pipeline that couples advanced Natural Language Processing (NLP) with Building Information Modeling (BIM) to dynamically interpret design intent from user inputs and instantiate corresponding BIM assemblies. A semantic translation layer maps parsed entities to a curated BIM model repository and propagates constraints into the authoring environment. On a multi project evaluation set the framework achieved 92 % mapping accuracy between client inputs and instantiated BIM elements. Embedding this capability enhances requirement traceability, clarifies intent for stakeholders, and enables scalable data driven design analytics. This contribution operationalizes AI assisted construction automation by unifying NLP and BIM within a single extensible workflow.}
+keywords = {BIM, BERT, NLP, Recommendation, Office, Architecture, Design}
 }
 ```
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
-Made with ❤️ by ITalab
